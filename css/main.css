@@ -1105,7 +1105,7 @@
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../src/bg2.jpg");
+			background-image: url("../src/bg1.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1387,8 +1387,8 @@
 				}
 
 			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
+				/* width: 5.75rem; */
+				height: 5.75rem;
 				line-height: 4.75rem;
 			}
 

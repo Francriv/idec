@@ -17,7 +17,7 @@
 		<label for="nombre">Nombre:</label>
 		<input type="text" name="nombre" id="nombre"><br>
 
-		<label for="asunto">Correo</label>
+		<label for="asunto">Correo:</label>
 		<input type="text" name="asunto" id="asunto"><br>
 
 		<label for="mensaje">Mensaje: </label>
