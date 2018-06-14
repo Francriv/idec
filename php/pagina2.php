@@ -1,12 +1,13 @@
 <?php 
-	$nombre = $_POST['nombre'];
-	$asunto = $_POST['asunto'];
-	$mensaje = $_POST['mensaje'];
+	$name = $_POST['name'];
+	$email = $_POST['email'];
+	$message = $_POST['message'];
 
-	echo "<script>alert('Enviado, muchas gracias $nombre, nos pondremos en contacto');javascript:history.back(-1);</script> ";
-	if(mail('ventas@idecsoluciones.com', $asunto, $mensaje)){
-			
+	
+	if(mail('ventas@idecsoluciones', $email, $message)){
+		echo "<script>alert('Enviado, muchas gracias $name, nos pondremos en contacto');javascript:history.back(-1);</script> ";	
 	}else{
-		echo "<script>alert('No se ha podido enviar, revisa tus datos $nombre por favor');</script>";
+		echo "<script>alert('No se ha podido enviar, revisa tus datos $name por favor');</script>";
 	}
  ?>
+ 
